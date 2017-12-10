@@ -1,0 +1,205 @@
+body
+{
+    margin:0px;
+    background-image:url(../img/fon.jpg);
+	background-repeat:repeat;
+	font-family: 'Open Sans', sans-serif;
+}
+@media screen and (max-width: 480px) {
+		.layout
+	{
+	 width:481px;
+	 margin: 0px auto;
+	margin-right: auto;
+	margin-left: auto;
+	}
+	#header {
+		width: 481px;
+		margin-bottom:0px;
+		border-bottom:0px;
+	}
+	#content img
+	{
+		height: 256px; 
+        display: block;
+        margin: 0 auto; 
+	}
+	#menu
+	{
+	   width: 481px;
+	}
+}
+@media screen and (min-width: 481px) {
+		.layout
+	{
+	 width:481px;
+	 margin: 0px auto;
+	margin-right: auto;
+	margin-left: auto;
+	}
+	#header {
+		width: 481px;
+		margin-bottom:0px;
+		border-bottom:0px;
+	}
+	
+	#content img
+	{
+		height: 220px; 
+        display: block;
+        margin: 0 auto; 
+	}
+	#menu
+	{
+	   width: 481px;
+	}
+}
+
+@media screen and (min-width: 801px) {
+	.layout
+	{
+	 width:750px;
+	 margin: 0px auto;
+	margin-right: auto;
+	margin-left: auto;
+	}
+	#header {
+		width: 750px;
+	    margin-bottom:7px;
+        border-bottom:5px solid OrangeRed;
+	}
+	#content {
+		width: 475px;
+	}
+	#footer {
+		width: 507px;
+		float:left;
+	}
+	#menu {
+		float: right;
+		width:230px;
+	}
+	#content img
+	{
+		height: 220px; 
+        display: block;
+        margin: 0 auto; 
+		
+	}
+}
+
+@media screen and (min-width: 1201px) {
+		.layout
+	{
+	 width:1150px;
+	 margin: 0px auto;
+	margin-right: auto;
+	margin-left: auto;
+	}
+	#header {
+		width:1150px;
+					margin-bottom:7px;
+    border-bottom:5px solid OrangeRed;
+	}
+	#content {
+		width: 875px;
+	}
+	#footer {
+		width: 907px;
+		float:left;
+	}
+	#menu {
+		width:230px;
+		float:right;
+	}
+	#content img
+	{
+		height: 220px;
+		position: relative;
+	    float: right;
+	}
+}
+#header{
+    height:100px;
+    margin-top: 2px;
+    margin-right: auto;
+	margin-left: auto;
+    background-color:White;
+}
+#header span{
+    position: relative;
+    top: 39px;
+    left: 25px;
+    font-size: 25pt;
+    font-family: 'Pacifico', cursive;
+    color: OrangeRed;
+}
+#content {
+    background-color:white;
+    border:1px solid Black;
+	padding:20px;
+	font: inherit;
+	
+}
+#content .abz{
+   font-family: 'Russo One', sans-serif;
+   font-size:35px;
+   color: OrangeRed;
+   margin:5px;
+   
+}
+#content .s{
+ font-family: 'Caveat', cursive;
+ font-size:25px;
+   margin:5px;
+   margin-top:10px;
+}
+#content h1
+{
+	text-align:center;
+    font-family: 'Pacifico', cursive;
+	font-size:40px;
+    color:OrangeRed;
+	margin-bottom:10px;
+	margin-top:5px;
+ 
+}
+#footer {
+    background: OrangeRed;; 
+    color: #fff;
+    padding: 5px;
+}
+#menu
+{
+    background: white;
+	border-top:5px solid OrangeRed;
+	border-bottom:5px solid OrangeRed;
+	float:right;
+}
+#menu .bar
+{
+  color:OrangeRed;
+  text-decoration: none;
+  padding:8px;
+  margin:0px;
+  list-style-type: none;
+}
+#menu li{
+
+  margin:5px;
+   font-family: 'Caveat', cursive;
+    font-size:20px;
+}
+
+#menu a {
+   text-decoration:none;
+   color:OrangeRed;
+}
+
+#menu span{
+    left:16px;
+	position: relative;
+    font-size: 25pt;
+    font-family: 'Pacifico', cursive;
+    color: OrangeRed;
+}
